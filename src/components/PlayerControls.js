@@ -9,6 +9,7 @@ const PlayerControls = () => {
     <>
       <div>
         <p>{music.currentTrackName}</p>
+        <p>{music.singer}</p>
       </div>
       <button>
         <FontAwesomeIcon

@@ -45,8 +45,12 @@ function App() {
   return (
     <MusicContext.Provider value={[state, setState]}>
       <div className="App">
-        <PlayerControls />
-        <TrackList />
+        <div className='controls'>
+          <PlayerControls />
+        </div>
+        <div className='list'>
+          <TrackList />
+        </div>
       </div>
     </MusicContext.Provider>
   );

@@ -1,3 +1,26 @@
 .App {
   text-align: center;
 }
+
+body {
+  background: url("https://images.pexels.com/photos/3784566/pexels-photo-3784566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center/cover;
+  color: white;
+}
+
+.controls {
+  margin-bottom: 2rem;
+}
+
+.controls button {
+  margin-left: 0.5rem;
+}
+
+button {
+  height: 2rem;
+  width: 3rem;
+}
+
+.list button {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
